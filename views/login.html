@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body ng-controller="loginCtrl">
+<div ng-style="login">
+    <table align="center">
+        <tr>
+           <td> Input : </td>
+            <td>
+                <input type="text" name="input1" value="" placeholder="Enter Your Name" ng-model="name">
+            </td>
+        </tr>
+        <tr>
+            <td>Password : </td>
+            <td>
+                <input type="password" value="" name="password" placeholder="password" ng-model="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="Enter" ng-style="sub" ng-click="mypage()">
+            </td>
+        </tr>
+    </table>
+    <a href="#!/Login.goto">{{x}}</a>
+
+</div>
+
+</body>
+</html>

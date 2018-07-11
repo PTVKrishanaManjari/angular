@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <script src="../scripts/angular.js"></script>
+    <script src="../scripts/app.js"></script>
+    <script src="../scripts/appConfig.js"></script>
+    <script src="../scripts/angular-route.js"></script>
+    <script src="../scripts/angular-ui-router.js"></script>
+    <script src="../scripts/indexCtrl.js"></script>
+
+</head>
+<body ng-app="myapp" ng-controller="myCtrl">
+<div ng-style="navbar">
+
+    <button ng-style="button"><a href="#!/Login" ng-style="text">Login</a></button>
+</div>
+<div>
+    <ng-view></ng-view>
+
+</div>
+</body>
+</html>
